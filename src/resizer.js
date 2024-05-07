@@ -528,8 +528,26 @@ const KickStart = ()=>{
 
       <div>
         <div id="ChapterInfo" style={{display: "none"}}></div>
-        <div id="Appender2" style={{display: "none"}}></div>
+        <div id="Appender2" style={{display: "none"}}>   </div>
+      <div>
+
+    
       </div>
+                <div id="copier"></div>
+
+          <div id="checkBoxes" style={{display:"flex"}}>
+       
+<legend>          NET<input id="NETCheck" type="checkbox"  defaultChecked={true}  /></legend>
+<legend>              NAB<input id="NABCheck" type="checkbox" defaultChecked={true}  /></legend>
+<legend>              MSG<input id="MSGCheck" type="checkbox" defaultChecked={true}  /></legend>
+<legend>              AMP<input id="AMPCheck" type="checkbox" defaultChecked={true}  /></legend>
+<legend>              ASVS<input id="ASVSCheck" type="checkbox" defaultChecked={true}  /></legend>
+<legend>              kjv<input id="kjvCheck" type="checkbox" defaultChecked={true}  /></legend>
+          </div>
+
+      </div>
+
+    
     </>
   );
 }
